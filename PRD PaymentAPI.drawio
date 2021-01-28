@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T08:50:05.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" version="14.2.7" etag="7hHRt8yYb2Pl1HqE-aL5" type="github"><diagram id="traDwliMWbIrqVJlG7sX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-28T08:58:12.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="CYysLVeMfuOD9Fh70sh8" version="14.2.7" type="github">
+  <diagram id="traDwliMWbIrqVJlG7sX" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--1" value="PaymentApi" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-0YOs_W6rrKZFFmSzPH--4" target="-0YOs_W6rrKZFFmSzPH--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--4" value="&lt;ol class=&quot;breadcrumb&quot; style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; list-style: none ; background-color: rgb(204 , 232 , 207) ; border-radius: 4px ; color: rgb(68 , 68 , 68) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;&lt;li class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box ; display: inline-block&quot;&gt;ExchangeRate&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--5" value="&lt;ol class=&quot;breadcrumb&quot; style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; list-style: none ; background-color: rgb(204 , 232 , 207) ; border-radius: 4px ; color: rgb(68 , 68 , 68) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;&lt;li class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box ; display: inline-block&quot;&gt;Format Money&lt;/li&gt;&lt;/ol&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--6" value="/PaymentAPI/ExchangeRate" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-0YOs_W6rrKZFFmSzPH--7" target="-0YOs_W6rrKZFFmSzPH--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--7" value="/PaymentAPI/v1/Currency/Format" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="330" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="293.75" width="110" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--10" value="10.1.49.76" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--11" value="10.1.49.77" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="330" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--12" value="D2" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="110" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--15" value="Old share server ip" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-0YOs_W6rrKZFFmSzPH--16" value="Updated" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];rounded=0;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="645" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
