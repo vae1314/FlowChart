@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T05:59:31.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="kCqMvaRbfauBEh0RoYSZ" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T06:01:23.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="ZReveq_dMqiOrEa8QvPU" version="14.3.0" type="github">
   <diagram id="t7izrY0uPyY_yfrvOL8p" name="第 1 页">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,13 +49,16 @@
         <mxCell id="DhByZELsozqAP7-2EWqv-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DhByZELsozqAP7-2EWqv-15" target="DhByZELsozqAP7-2EWqv-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DhByZELsozqAP7-2EWqv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DhByZELsozqAP7-2EWqv-15" target="DhByZELsozqAP7-2EWqv-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DhByZELsozqAP7-2EWqv-15" value="Action" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DhByZELsozqAP7-2EWqv-17" value="Compute Hash" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-120" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DhByZELsozqAP7-2EWqv-19" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="DhByZELsozqAP7-2EWqv-19" value="Encryption algorithm of BAMS gateway used" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="720" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DhByZELsozqAP7-2EWqv-21" value="Hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -78,6 +81,17 @@
         </mxCell>
         <mxCell id="DhByZELsozqAP7-2EWqv-39" value="IngrianEncrypt/IngrianDecrypt" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="605" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DhByZELsozqAP7-2EWqv-40" value="TransArmorEncrypt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="605" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DhByZELsozqAP7-2EWqv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DhByZELsozqAP7-2EWqv-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhByZELsozqAP7-2EWqv-41" value="Encryption algorithm of BAMS gateway used" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
